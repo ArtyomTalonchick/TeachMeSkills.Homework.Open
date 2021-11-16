@@ -1,0 +1,1 @@
+const getStrongFunc = func => a => b => b === undefined ? a : getStrongFunc(func)(func(a, b));
